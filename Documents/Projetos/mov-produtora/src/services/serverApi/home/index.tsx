@@ -1,10 +1,10 @@
-import { api } from '..'
-import { IResponseComments } from './home.type'
+// import { api } from '..'
+// import { IResponseComments } from './home.type'
 
-export async function getClientFeedbacks(): Promise<IResponseComments> {
-  const response = await api.get('/comments', {
-    params: { limit: 10 }
-  })
+// export async function getClientFeedbacks(): Promise<IResponseComments> {
+//   const response = await api.get('/comments', {
+//     params: { limit: 10 }
+//   })
 
-  return { data: { ...response?.data } }
-}
+//   return { data: { ...response?.data } }
+// }
