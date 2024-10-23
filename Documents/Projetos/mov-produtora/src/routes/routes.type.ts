@@ -1,4 +1,3 @@
-import { navLinks } from './navLinks/index'
 export type routerType = {
   title: string
   path: string
